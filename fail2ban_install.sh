@@ -893,3 +893,4 @@ install_fail2ban(){
     config_jaillocal
     sudo systemctl enable fail2ban
 }
+install_fail2ban
