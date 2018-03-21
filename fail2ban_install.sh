@@ -889,8 +889,10 @@ install_fail2ban(){
     sudo yum -y update
     sudo yum -y install epel-release
     sudo yum -y install fail2ban
+    sudo systemctl enable fail2ban
     config_jailconf
     config_jaillocal
-    sudo systemctl enable fail2ban
+    sudo systemctl restart fail2ban
+    sudo fail2ban-client status sshd
 }
 install_fail2ban
