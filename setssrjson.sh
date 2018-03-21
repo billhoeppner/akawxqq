@@ -7,3 +7,5 @@ then
     elif grep -Fxq '"port_password":' /etc/shadowsocks-r/config.json
     then
         echo -c "[${red}Error${plain}] The json file has been edited already."
+    fi
+fi
