@@ -13,7 +13,7 @@ set_json(){
     "method":"none",
     "protocol": "auth_chain_d",
     "protocol_param": "",
-    "obfs": "tls1.2_ticket_auth",
+    "obfs": "",
     "obfs_param": "",
     "redirect": "",
     "dns_ipv6": false,
